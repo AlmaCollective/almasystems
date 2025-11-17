@@ -107,3 +107,78 @@ providing clarity in time for behavioral correction
 creating high-resolution emotional timing
 
 Humans feel it as: “I understood myself earlier than usual.”
+Cadence Layer
+The micro-timing engine of Alma
+
+The Cadence Layer is the foundational timing architecture that allows Alma to sense, predict, and stabilize human nervous-system shifts before they reach conscious awareness.
+
+It focuses on sub-perceptual micro-windows of time — the intervals in which the body reacts before the mind interprets.
+
+1. Purpose
+
+The Cadence Layer provides:
+
+Temporal coherence: aligning sensor signals into unified micro-windows
+
+Predictive sensitivity: detecting small timing delays or accelerations that indicate destabilization
+
+Synchronization: keeping all layers of Alma “in rhythm”
+
+Cadence is the “heartbeat of the system.” Without it, interpretation becomes noise.
+
+2. The Core Rule: <200 ms Windows
+
+Human nervous-system responsiveness operates strongly within the 50–200 ms intervals:
+
+Breath micro-adjustments
+
+HRV spikes
+
+Muscle tension shifts
+
+Micro-hesitations
+
+Attention flicker
+
+If cadence slips, the user experiences misalignment, perceived as:
+
+overwhelm
+
+confusion
+
+micro-freeze
+
+emotional spiraling
+
+déjà-vu states (explained in the next layer)
+
+Alma continuously samples and aligns signals in these micro-windows.
+
+3. What Cadence Detects
+
+Cadence deviations = early destabilization markers.
+
+Examples:
+
+Delayed breath return (e.g., exhale lag by +90 ms)
+
+Heart rhythm desynchronization from breath
+
+Micro-pauses in cognitive flow
+
+Tiny timing mismatches between intention → action
+
+These events appear before emotion is fully formed.
+
+4. Output of the Cadence Layer
+
+The layer outputs a stability score plus a timing deviation map:
+cadence_stability: 0.82
+micro_delay_cluster: [124ms, 137ms, 142ms]
+breath_alignment: 0.91
+rhythm_integrity: stable
+This output is passed to:
+
+Deja-Vu Layer (pattern-level explanation)
+
+Interpretation Layer (emotional clarity logic)
