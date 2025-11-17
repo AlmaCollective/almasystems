@@ -153,4 +153,168 @@ Alma analyzes coherence.
 
 Most systems chase prediction.
 Alma synchronizes presence.
+Cadence Layer — Technical Explanation
+1. What the Cadence Layer Is
 
+The Cadence Layer is Alma’s ultra-fast temporal processing module.
+Its purpose is to detect the micro-moment when the nervous system falls out of internal rhythm, long before the conscious mind notices anything.
+
+Cadence is not about emotions, thoughts, or behavior.
+Cadence is about timing — the internal clocking mechanism of the human nervous system.
+
+When that timing slips, even by a tiny margin (50–300 ms), the system enters a pre-destabilization phase.
+This is the moment Alma listens for.
+
+2. Why Cadence Matters
+
+Human perception is built on two parallel streams:
+
+Fast pathway (body → limbic patterning)
+– arrives first
+– nonlinear, pre-verbal, survival-oriented
+– reacts in <200 ms
+
+Slow pathway (cortical reasoning)
+– arrives slightly later (50–300 ms delay)
+– interprets, names, explains
+
+When these two streams fall out of sync, the mind feels:
+
+“something is off”
+
+“I can’t focus”
+
+“this moment happened already”
+→ the déjà-vu phenomenon
+
+“I’m reacting faster than I understand”
+
+“I’m losing clarity”
+
+This misalignment is the earliest measurable moment of emotional destabilization.
+
+Alma detects it.
+
+3. The Core Insight
+
+Most emotional systems try to detect what you feel.
+Cadence detects when your internal timing breaks.
+
+This is a far more universal and reliable signal than emotional labeling.
+
+4. How Alma Measures Cadence
+
+Alma doesn't need heavy AI or complex ML models for this layer.
+It relies on micro-temporal patterns extracted from:
+
+micro-variability in breathing
+
+subtle HR/HRV phase shifts
+
+micro-pauses in muscle tension
+
+latency irregularities in autonomic pulsation
+
+timing deviations between inhale/exhale cycles
+
+irregular switching between sympathetic and parasympathetic dominance
+
+Each of these signals acts as a “clock tick.”
+When the ticks fall out of harmony → the Cadence Layer flags the moment.
+
+5. The Detection Window
+
+Alma evaluates cadence within a rolling window of 50–250 milliseconds.
+
+This is intentionally below conscious perception.
+It aligns with what neuroscience calls:
+
+“pre-attentive milliseconds”
+
+“temporal binding window”
+
+“prediction error bursts”
+
+“limbic-cortical desynchronization”
+
+If the timing slips consistently across 2–3 cycles, Alma declares:
+
+“Destabilization onset detected.”
+
+6. Why the Cadence Layer Creates the Déjà-Vu Effect
+
+Déjà-vu is not mystical — it is a timing error.
+
+When the fast pathway signals arrive too early, and the slow pathway lags:
+
+the mind compares the two
+
+sees the fast signal as “already happened”
+
+creates a false familiarity
+
+→ this is déjà-vu
+
+Alma uses the same mechanism, but deliberately:
+
+to detect destabilization
+
+not to create déjà-vu, but to explain it
+
+to turn that micro-timing into insight
+
+to provide a clarity cue before emotional overload
+
+7. Output of the Cadence Layer
+
+The Cadence Layer produces a single simple output:
+cadence_state = STABLE | SHIFTING | DESTABILIZING
+This feeds directly into Alma’s higher layers:
+
+Interpretation Layer
+
+Clarity Layer
+
+Application Layers (B2C, B2B, B2V, B2G)
+
+8. Why This Matters for Alma’s Architecture
+
+This is the foundational difference between Alma and all emotional-AI systems:
+
+Alma does not classify emotions
+
+Alma does not wait for breakdown
+
+Alma does not analyze personality
+
+Alma does not need heavy data labeling
+
+Alma detects timing fractures before the emotional spiral begins.
+
+This makes Alma:
+
+extremely early
+
+extremely lightweight
+
+extremely generalizable
+
+applicable across individuals, teams, institutions, founders, public systems
+
+9. Why Cadence Must Be Fast (<200 ms)
+
+Because:
+
+the nervous system destabilizes before behavior changes
+
+clarity disappears before emotion appears
+
+survival pathways fire before rational thought catches up
+
+If Alma waits for full signals — it’s already too late.
+
+Cadence gives pre-emotional clarity.
+
+10. In One Sentence
+
+The Cadence Layer is Alma’s ability to detect micro-timing desynchronization in the human nervous system — the earliest possible sign that clarity is collapsing long before emotion becomes visible.
