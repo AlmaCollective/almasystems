@@ -126,3 +126,80 @@ and no system is designed to detect the moment *before* the collapse.
 
 Alma fills that gap, quietly and precisely.
 
+## Temporal Cadence & the "Déjà-Vu Window"
+
+Alma is built on a simple but important assumption:
+
+> Emotions don’t just have *intensity* – they also have a **temporal cadence**.  
+> When the “felt” stream and the “story” stream fall out of sync, humans experience confusion, overload, or even déjà-vu.
+
+### Two parallel streams
+
+Alma models emotional experience as two coupled streams:
+
+1. **Somatic / fast stream**  
+   - High-frequency biosignals (HR, HRV, EDA, respiration, etc.).  
+   - Arrive in the nervous system and in Alma as a continuous, fast-updating flow.  
+   - This stream “knows” something is happening before we can name it.
+
+2. **Cognitive / slow stream**  
+   - The narrative layer: thoughts, labels, explanations, internal dialogue.  
+   - Arrives slightly later, because the brain needs time to interpret and compress what the body already felt.
+
+Under normal conditions, these two streams stay **phase-locked**: what I feel in my body and what I tell myself about it arrive almost together, so the experience feels coherent.
+
+### The Déjà-Vu Window (50–300 ms)
+
+When the cognitive stream is delayed by a small but noticeable offset (≈ 50–300 ms), the brain can misinterpret the situation as:
+
+> “Wait… this already happened.”
+
+It hasn’t. What actually happened is:
+
+- the **somatic stream** registered the event first,
+- the **cognitive stream** arrived slightly later,
+- and the brain compared “now” with a snapshot from a few hundred milliseconds ago.
+
+Alma uses this idea as a **design constraint**:
+
+- We keep Alma’s micro-cadence for internal updates **below 200 ms**,  
+  so the system can *track* these micro-mismatches instead of averaging them away.
+
+### How Alma uses cadence
+
+Alma maintains rolling buffers of both streams:
+
+- a **somatic buffer** of raw and derived biosignal features,
+- a **cognitive proxy buffer** (self-reports, interaction patterns, language, app usage, etc.).
+
+For each window, Alma estimates a **coherence lag**:
+
+\[
+\text{coherence_lag} = t_{\text{cognitive peak}} - t_{\text{somatic peak}}
+\]
+
+Then it can:
+
+- detect when the lag stays **small and stable** → *high temporal coherence* (body & story aligned);  
+- detect when the lag drifts or oscillates in the **50–300 ms band** → *déjà-vu / emotional echo zone*;  
+- detect when the lag explodes into seconds or minutes → *rumination, dissociation, or overload*.
+
+Alma doesn’t label these states as “pathology”.  
+Instead, it treats them as **patterns of timing** that can be trained and gently re-aligned.
+
+### Why this matters for resilience
+
+Most tools only look at *what* you feel (“stressed / not stressed”).  
+Alma also looks at **when** your body and your inner story fall out of sync.
+
+This enables:
+
+- early warning for **emotional spirals** (before behaviour explodes),  
+- personalized exercises that nudge the system back into **coherent cadence**,  
+- a new class of metrics: *temporal coherence*, *emotional echo*, *resonant window*, etc.
+
+In short:
+
+> Alma doesn’t try to delete déjà-vu.  
+> It learns from the tiny timing errors that make it possible –  
+> and uses them as a compass to bring you back into yourself before overload hits.
